@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tina Real Estate</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Tina<span>RealEstate</span></div>
+    <nav class="nav">
+      <a href="index.html">Գլխավոր</a>
+      <a href="listings.html">Գույքեր</a>
+      <a href="about.html">Իմ մասին</a>
+      <a href="contact.html">Կոնտակտ</a>
+    </nav>
+    <div class="lang-switch">
+      <button data-lang="hy" class="active">ՀԱՅ</button>
+      <button data-lang="ru">РУС</button>
+      <button data-lang="en">ENG</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <p class="hero-sub">Երևան | Հուսալի բրոքերային ծառայություն</p>
+    <h1>Գտեք ձեր հաջորդ <span>անշարժ գույքը</span></h1>
+
+    <div class="search-box">
+      <div class="type-toggle">
+        <button class="active" data-type="apartment">Բնակարան</button>
+        <button data-type="house">Առանձնատուն</button>
+        <button data-type="commercial">Կոմերցիոն</button>
+      </div>
+      <div class="deal-toggle">
+        <button class="active" data-deal="sale">Վաճառք</button>
+        <button data-deal="rent">Վարձակալություն</button>
+      </div>
+      <div class="search-input">
+        <input type="text" placeholder="Շրջան, փողոց կամ բանալի բառ...">
+        <button class="search-btn">Փնտրել</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="hot-listings">
+    <div class="section-head">
+      <h2>Թեժ առաջարկներ</h2>
+      <a href="listings.html">Բոլորը →</a>
+    </div>
+    <div class="listing-grid" id="hot-listings-grid">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-contact">
+      <p><strong>Tina Real Estate</strong></p>
+      <p><a href="tel:+37477767050">+374 77 767050</a></p>
+      <p><a href="https://wa.me/37477767050" target="_blank">WhatsApp</a></p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/listings.js"></script>
+</body>
+</html>
